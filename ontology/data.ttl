@@ -1,0 +1,21 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ac: <http://agedcare.org/kg#> .
+
+
+ac:GroupEvent a rdfs:Class ;
+  rdfs:label "Group Event" ;
+  rdfs:comment "A concept derived from Obsidian: Data/Group Event" .
+
+ac:Transactions a rdfs:Class ;
+  rdfs:label "Transactions" ;
+  rdfs:comment "A concept derived from Obsidian: Data/Transactions" .
+
+ac:Job a rdfs:Class ;
+  rdfs:label "Job" ;
+  rdfs:comment "A concept derived from Obsidian: Data/Job" .
+
+ac:JobType a rdfs:Class ;
+  rdfs:label "Job Type" ;
+  rdfs:comment "A concept derived from Obsidian: Data/Job Type" .

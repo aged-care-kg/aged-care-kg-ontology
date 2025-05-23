@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ac: <http://agedcare.org/kg#> .
+
+
+ac:DirectCare a rdfs:Class ;
+  rdfs:label "Direct Care" ;
+  rdfs:comment "A concept derived from Obsidian: Services/Direct Care" .
+
+ac:Travel a rdfs:Class ;
+  rdfs:label "Travel" ;
+  rdfs:comment "A concept derived from Obsidian: Services/Travel" .
+
+ac:Nursing a rdfs:Class ;
+  rdfs:label "Nursing" ;
+  rdfs:comment "A concept derived from Obsidian: Services/Nursing" .
+
+ac:ClinicalCare a rdfs:Class ;
+  rdfs:label "Clinical Care" ;
+  rdfs:comment "A concept derived from Obsidian: Services/Clinical Care" .
+
+ac:WoundDressing a rdfs:Class ;
+  rdfs:label "Wound Dressing" ;
+  rdfs:comment "A concept derived from Obsidian: Services/Wound Dressing" .

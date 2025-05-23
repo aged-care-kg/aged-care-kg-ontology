@@ -1,0 +1,10 @@
+@prefix ac: <http://agedcare.org/kg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://agedcare.org/kg>
+    a owl:Ontology ;
+    owl:imports <actors.ttl> ,
+                <places.ttl> ,
+                <things.ttl> ,
+                <services.ttl> ,
+                <data.ttl> .

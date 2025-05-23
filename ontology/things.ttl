@@ -1,0 +1,57 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ac: <http://agedcare.org/kg#> .
+
+
+ac:Deficit a rdfs:Class ;
+  rdfs:label "Deficit" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Deficit" .
+
+ac:SMS a rdfs:Class ;
+  rdfs:label "SMS" ;
+  rdfs:comment "A concept derived from Obsidian: Things/SMS" .
+
+ac:CarerMobileApp a rdfs:Class ;
+  rdfs:label "Carer Mobile App" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Carer Mobile App" .
+
+ac:Reimbursements a rdfs:Class ;
+  rdfs:label "Reimbursements" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Reimbursements" .
+
+ac:SubContract a rdfs:Class ;
+  rdfs:label "Sub Contract" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Sub Contract" .
+
+ac:Casual a rdfs:Class ;
+  rdfs:label "Casual" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Casual" .
+
+ac:CareWorkerMobileDevice a rdfs:Class ;
+  rdfs:label "Care Worker Mobile Device" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Care Worker Mobile Device" .
+
+ac:ManagementSystem a rdfs:Class ;
+  rdfs:label "Management System" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Management System" .
+
+ac:PackageBalance a rdfs:Class ;
+  rdfs:label "Package Balance" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Package Balance" .
+
+ac:Compliance a rdfs:Class ;
+  rdfs:label "Compliance" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Compliance" .
+
+ac:AgedCareServiceProvider a rdfs:Class ;
+  rdfs:label "Aged Care Service Provider" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Aged Care Service Provider" .
+
+ac:DataWarehouse a rdfs:Class ;
+  rdfs:label "Data Warehouse" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Data Warehouse" .
+
+ac:Services a rdfs:Class ;
+  rdfs:label "Services" ;
+  rdfs:comment "A concept derived from Obsidian: Things/Services" .

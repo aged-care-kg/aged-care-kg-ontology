@@ -1,0 +1,17 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ac: <http://agedcare.org/kg#> .
+
+
+ac:CareWorker a rdfs:Class ;
+  rdfs:label "Care Worker" ;
+  rdfs:comment "A concept derived from Obsidian: Actors/Care Worker" .
+
+ac:Nurse a rdfs:Class ;
+  rdfs:label "Nurse" ;
+  rdfs:comment "A concept derived from Obsidian: Actors/Nurse" .
+
+ac:Client a rdfs:Class ;
+  rdfs:label "Client" ;
+  rdfs:comment "A concept derived from Obsidian: Actors/Client" .

@@ -1,0 +1,21 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ac: <http://agedcare.org/kg#> .
+
+
+ac:CareWorkersHome a rdfs:Class ;
+  rdfs:label "Care Worker's Home" ;
+  rdfs:comment "A concept derived from Obsidian: Places/Care Worker's Home" .
+
+ac:ClientsHome a rdfs:Class ;
+  rdfs:label "Client's Home" ;
+  rdfs:comment "A concept derived from Obsidian: Places/Client's Home" .
+
+ac:CommunityCentre a rdfs:Class ;
+  rdfs:label "Community Centre" ;
+  rdfs:comment "A concept derived from Obsidian: Places/Community Centre" .
+
+ac:PlaceintheCommunity a rdfs:Class ;
+  rdfs:label "Place in the Community" ;
+  rdfs:comment "A concept derived from Obsidian: Places/Place in the Community" .
